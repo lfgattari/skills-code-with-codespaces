@@ -3,6 +3,7 @@
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
   "remoteUser": "codespace",
   "overrideCommand": false,
+  "postCreateCommand": "echo 'Container created! Ready to go!'", 
   "customizations": {
     "vscode": {
       "extensions": [
